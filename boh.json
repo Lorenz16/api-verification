@@ -1,4 +1,10 @@
 {
-  "1078082725": "lop",
-  "3121419200": "jk"
+  "ID_AUTORIZZATI": {
+    "SISTEMA_MANGANELLO_SCUDO_MATTONE": {
+      "Palermo, Italy": {
+        "type" : "Group",
+        "id" : 6993440
+      }
+    }
+  }
 }
