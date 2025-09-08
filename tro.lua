@@ -10,9 +10,9 @@
 
 --[[START]]
 local Players = game:GetService("Players")
-script.Parent.Parent.Driveseat.Disabled = true -- Prevents entering the car before initialization
+script.Parent.Parent.DriveSeat.Disabled = true -- Prevents entering the car before initialization
 
-_BuildVersion = require(script.Parent.VERSIONS)
+_BuildVersion = require(script.Parent.README)
 
 --[[Weld functions]]
 local function MakeWeldConstraint(x, y)
@@ -63,7 +63,7 @@ end
 --[[Initialize]]
 script.Parent:WaitForChild("A-Chassis Interface")
 script.Parent:WaitForChild("Plugins")
-script.Parent:WaitForChild("VERSIONS")
+script.Parent:WaitForChild("README")
 
 local car = script.Parent.Parent
 local seat = car.DriveSeat
@@ -71,7 +71,7 @@ local seat = car.DriveSeat
 local Wheels = {}
 local Drive = Wheels
 local _Tune=require(script.Parent)
-local Units = require(car["A-Chassis Tune"].VERSIONS.Units)
+local Units = require(car["A-Chassis Tune"].README.Units)
 local shutdownEvent = Instance.new("UnreliableRemoteEvent", script.Parent)
 shutdownEvent.Name = "Shutdown"
 
