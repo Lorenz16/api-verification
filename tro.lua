@@ -10,7 +10,7 @@
 
 --[[START]]
 local Players = game:GetService("Players")
-script.Parent.Parent.DriveSeat.Disabled = true -- Prevents entering the car before initialization
+script.Parent.Parent.postoguida.Disabled = true -- Prevents entering the car before initialization
 
 _BuildVersion = require(script.Parent.README)
 
