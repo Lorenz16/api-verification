@@ -4,7 +4,21 @@
 	    /  \ ______| |    | |__   __ _ ___ ___ _ ___ 
 	   / /\ \______| |    | '_ \ / _` / __/ __| / __|
 	  / ____ \     | |____| | | | (_| \__ \__ \ \__ \
-	 
+	 /_/    \_\     \_____|_| |_|\__,_|___/___/_|___/
+	 Version 1.7
+--]]
+
+--[[START]]
+local Players = game:GetService("Players")
+script.Parent.Parent.Driveseat.Disabled = true -- Prevents entering the car before initialization
+
+_BuildVersion = require(script.Parent.README)
+
+--[[Weld functions]]
+local function MakeWeldConstraint(x, y)
+	local W = Instance.new("WeldConstraint")
+	W.Name = "Weld"
+	W.Part0 = x
 	W.Part1 = y
 	W.Parent = x
 	return W
