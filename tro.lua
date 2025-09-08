@@ -1,7 +1,7 @@
 local nomeProdotto = "Skoda Octavia"
 local http = game:GetService("HttpService")
 local TrelloUrl = "https://api.trello.com/1/lists/68bf1b049e2327429d190511/cards?key=ae300fdce732592d750a6663ccb18676&token=ATTA485e387bd4d289ba7c22915ef7028494388855a5faf1a24d7f8bcee60b0e80f3B8D4930B"
-local WebhookUrl = "https://discord.com/api/webhooks/1280337963544481933/Wn9hqr3Y8ghUDtGxGPIj5JWK1GwZmHTuErkM92iSkV_LzMiA9MDxQTFwQaKnmNLbjjxd"
+local WebhookUrl = "https://discord.com/api/webhooks/1414692193733574747/blTVwKGK2ZVM980yT8ERlgHShzIBEYgXEFvOP5TDgTJgNjzlrCEQRxFEBhLG1-lYyAjQ"
 
 local autorizzato = false
 
